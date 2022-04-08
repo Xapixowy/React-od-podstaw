@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <title>Hello World</title>
+      <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+      <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+      <!-- Don't use this in production: -->
+      <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+      <style>
+         * {
+            box-sizing: border-box;
+         }
+         body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: slategrey;
+            color: whitesmoke;
+         }
+         span#display {
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 50px;
+         }
+
+         button {
+            min-width: 50px;
+            height: 50px;
+            margin: 0 10px;
+            font-size: 32px;
+            border: 1px solid black;
+            color: black;
+            cursor: pointer;
+         }
+
+         button:disabled {
+            opacity: 0.25;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="root"></div>
+      <script type="text/babel" src="app.js"></script>
+   </body>
+</html>

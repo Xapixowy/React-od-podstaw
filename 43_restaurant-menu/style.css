@@ -1,0 +1,40 @@
+html {
+   font-size: 36px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+   font-size: 1rem;
+}
+
+h2 {
+   font-size: 0.5rem;
+}
+
+header span {
+   color: darkorchid;
+}
+
+ul {
+   padding-left: 0;
+   list-style: none;
+   font-size: 0.5rem;
+}
+
+li {
+   padding: 15px 5px;
+   margin: 10px 0;
+   cursor: pointer;
+}
+
+li.active {
+   font-weight: bold;
+}
+
+li:nth-of-type(odd) {
+   background-color: #ccc;
+}
+
+li:nth-of-type(even) {
+   background-color: #eee;
+}

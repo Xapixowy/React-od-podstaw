@@ -1,0 +1,17 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+div#root {
+   padding: 15px;
+}
+
+h1 {
+   margin: 20px 0 10px 0;
+}
+
+li {
+   margin: 10px 0 10px 15px;
+}
