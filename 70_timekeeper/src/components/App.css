@@ -1,0 +1,30 @@
+div.timekeeper {
+   font-size: 24px;
+}
+
+div.timekeeper h1 {
+   margin-bottom: 10px;
+}
+
+div.timekeeper p {
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+div.timekeeper p.started {
+   color: green;
+}
+
+div.timekeeper p.stopped {
+   color: red;
+}
+
+div.timekeeper span {
+   display: flex;
+   justify-content: center;
+}
+
+div.timekeeper span > button {
+   margin: 0 10px;
+   padding: 2px 5px;
+}
