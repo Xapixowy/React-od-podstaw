@@ -1,0 +1,16 @@
+div.app h1 {
+   text-align: center;
+   margin-bottom: 1rem;
+}
+
+div.user {
+   margin-bottom: 25px;
+}
+
+div.user h2 {
+   margin-bottom: 15px;
+}
+
+div.user p {
+   margin-bottom: 5px;
+}

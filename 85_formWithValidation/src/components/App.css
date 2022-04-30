@@ -1,0 +1,40 @@
+form > label {
+   display: block;
+   margin-bottom: 10px;
+   font-size: 0.8rem;
+}
+
+form > label > input {
+   margin-left: 20px;
+}
+
+form > label > input[type='checkbox'] {
+   margin-left: 0;
+   margin-right: 20px;
+}
+
+form > label > span.error {
+   margin-left: 10px;
+   font-size: 0.5rem;
+   color: red;
+}
+
+form > button {
+   padding: 2px 10px;
+}
+
+form > span.message {
+   margin-top: 15px;
+   color: lime;
+   display: block;
+   animation: fadeOut 1s 2s paused;
+}
+
+@keyframes fadeOut {
+   from {
+      opacity: 1;
+   }
+   to {
+      opacity: 0;
+   }
+}

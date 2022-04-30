@@ -1,0 +1,26 @@
+div.user {
+   text-align: center;
+   margin: 25px 0;
+}
+
+div.user > div.image {
+   display: inline-block;
+
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+div.user > img {
+   box-shadow: 0 0 5px #fff;
+   border: 2px solid white;
+   border-radius: 50%;
+}
+
+div.user h1 {
+   margin-bottom: 15px;
+}
+
+div.user p {
+   text-align: left;
+   margin-bottom: 5px;
+}

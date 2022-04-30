@@ -1,0 +1,7 @@
+button.addNewUser {
+   position: fixed;
+   left: 25px;
+   top: 25px;
+   padding: 5px 15px;
+   font-weight: bold;
+}
