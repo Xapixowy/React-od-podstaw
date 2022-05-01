@@ -1,0 +1,26 @@
+div#taskList > div {
+   margin-bottom: 25px;
+}
+
+div#taskList > div.doneTasks {
+   color: grey;
+}
+
+div#taskList > div.doneTasks > p.lastFive {
+   text-transform: uppercase;
+   text-decoration: underline;
+   font-size: 0.5rem;
+   padding-left: 25px;
+}
+
+div#taskList > div > h2 {
+   margin-bottom: 15px;
+}
+
+div#taskList > div > ul {
+   padding-left: 25px;
+}
+
+div#taskList > div > ul > li {
+   margin: 10px 0;
+}

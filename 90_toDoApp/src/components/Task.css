@@ -1,0 +1,21 @@
+li {
+   font-size: 0.75rem;
+   font-weight: bold;
+}
+
+li > p:nth-of-type(2) {
+   font-weight: normal;
+   margin-top: 5px;
+}
+
+li > p > span.date {
+   font-weight: normal;
+   vertical-align: center;
+   font-size: 0.7em;
+}
+
+li > p > button {
+   margin-left: 10px;
+   padding: 0 10px;
+   vertical-align: center;
+}

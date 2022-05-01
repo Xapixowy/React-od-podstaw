@@ -1,0 +1,31 @@
+form#addTask {
+   margin: 0 auto;
+   max-width: 600px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+form#addTask > label {
+   padding: 10px;
+   font-size: 0.75rem;
+   flex-basis: 100%;
+}
+
+form#addTask > label > input[type='text'] {
+   width: 300px;
+}
+
+form#addTask > label > input[type='text'],
+form#addTask > label > input[type='date'] {
+   margin-left: 10px;
+}
+
+form#addTask > label > input[type='checkbox'] {
+   margin-right: 10px;
+}
+
+form#addTask > button {
+   align-self: center;
+   padding: 2px 15px;
+}
